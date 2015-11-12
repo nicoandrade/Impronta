@@ -20,9 +20,10 @@ TABLE OF CONTENTS
 4. Sidebar
 5. Comments
 6. Pace
-7. WordPress Default
-8. Global Styles
-9. Responsive Styles
+7. External Plugins
+8. WordPress Default
+9. Global Styles
+10. Responsive Styles
 LESS Variables and Mixins
 ----------------------------------------------------------------
 */
@@ -1415,7 +1416,109 @@ Featured Posts
 }
 /*
 ==========================================
-7. WordPress Default
+7. External Plugins
+========================================== 
+*/
+/*
+// Contact Form 7
+// ------------------
+*/
+.wpcf7 p {
+  margin-bottom: 25px;
+}
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"] {
+  width: 50%;
+}
+.wpcf7 select {
+  font-size: 14px;
+  font-size: 0.875rem;
+}
+.wpcf7 input[type="checkbox"],
+.wpcf7 input[type="radio"] {
+  display: inline-block;
+  width: auto;
+  height: 20px;
+  margin-right: 5px;
+  margin-top: 0;
+}
+.wpcf7-list-item {
+  display: block;
+  margin-bottom: 5px;
+  line-height: 20px;
+}
+.wpcf7 textarea {
+  width: 80%;
+}
+.wpcf7 input[type="submit"] {
+  width: auto;
+  border-color: #555555;
+  -webkit-transition: background-color 200ms;
+  -o-transition: background-color 200ms;
+  transition: background-color 200ms;
+  padding: 6px 15px;
+}
+.wpcf7 input[type="submit"]:hover {
+  background-color: #555555;
+  color: #fff;
+}
+.wpcf7 input[disabled="disabled"] {
+  opacity: 0.3;
+}
+.wpcf7-quiz {
+  margin-bottom: 0;
+}
+.wpcf7-not-valid {
+  border-color: red;
+}
+/*
+// Jetpack
+// ------------------
+*/
+.infinite-loader {
+  height: 50px;
+  margin: 50px 0;
+}
+.infinite-loader .spinner {
+  left: 50%!important;
+  top: 50%!important;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+/*
+// Easy MailChimp Forms
+// ------------------
+*/
+.widget_yikes_mc_widget input[type="submit"] {
+  display: inline-block;
+  width: auto;
+  background-color: transparent;
+  border: 2px solid #999999;
+  color: #999999;
+}
+.widget_yikes_mc_widget input[type="submit"]:hover {
+  background-color: #eeeeee;
+  border: 2px solid #eeeeee;
+  color: #555555;
+}
+.widget_yikes_mc_widget input[type="text"] {
+  border: none;
+}
+.widget_yikes_mc_widget .yks-mailchimpFormDivSubmit {
+  margin: 0;
+}
+.widget_yikes_mc_widget p {
+  padding-top: 0!important;
+}
+.widget_yikes_mc_widget .yks-status p {
+  color: #eeeeee;
+  margin-bottom: 10px;
+}
+/*
+==========================================
+8. WordPress Default
 ========================================== 
 */
 /* =WordPress Core
@@ -1922,7 +2025,7 @@ a img.aligncenter {
 }
 /*
 ==========================================
-8. Global Styles
+9. Global Styles
 ========================================== 
 */
 html {
@@ -2447,7 +2550,7 @@ textarea {
 }
 /*
 ==========================================
-9. Responsive Styles
+10. Responsive Styles
 ========================================== 
 */
 /*

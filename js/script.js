@@ -1,26 +1,42 @@
 jQuery(document).ready(function($) {
 
+			/*
+			Equal Height columns
+			----------------------------------*/
+			equalHeight = function(){
+				if ( $(window).width() > 1330) {
+					$("#sidebar, #main").css( 'height', 'auto' );
+					var container_height = $("#container").innerHeight();
+					$("#sidebar, #main").outerHeight( container_height );
+				}else{
+					$("#sidebar, #main").css( 'height', 'auto' );
+				}
+			}
+
+			Pace.options = {
+			  restartOnPushState: false,
+			  restartOnRequestAfter: false,
+			   ajax: false
+			}
 			//Anomation at load -----------------
 			Pace.on('done', function(event) {
 				
-				/*
-				Equal Height columns
-				----------------------------------*/
-				equalHeight = function(){
-					if ( $(window).width() > 1330) {
-						$("#sidebar, #main").css( 'height', 'auto' );
-						var container_height = $("#container").innerHeight();
-						$("#sidebar, #main").outerHeight( container_height );
-					}else{
-						$("#sidebar, #main").css( 'height', 'auto' );
-					}
-				}
 				$( window ).resize(function() {
 					equalHeight();
 				});
 				equalHeight();
 				
 			});//Pace
+
+
+
+
+			/*
+			Infinite Scroll
+			----------------------------------*/
+			$( document.body ).on( 'post-load', function () {
+		    	equalHeight();
+		    } );
 
 
 
