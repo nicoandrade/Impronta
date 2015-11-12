@@ -89,3 +89,17 @@ if ( ! function_exists( 'impronta_new_content_more' ) ){
 }// end function_exists
     add_filter( 'the_content_more_link', 'impronta_new_content_more' );
 
+
+
+/**
+ * Adds parameters on Pace script
+ */
+add_filter( 'script_loader_tag', 'impronta_add_parameters', 10, 2 );
+function impronta_add_parameters($tag, $handle) {
+    if ( 'pace' !== $handle )
+        return $tag;
+
+    $new_string = ' data-pace-options=\'{ "restartOnPushState": false }\' src';
+    return str_replace( ' src', $new_string, $tag );
+}
+

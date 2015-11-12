@@ -13,6 +13,7 @@
  */
 function impronta_jetpack_setup() {
 	add_theme_support( 'infinite-scroll', array(
+		'type'      => 'scroll',
 		'container' => 'posts-container',
 		'render'    => 'impronta_infinite_scroll_render',
 		'footer'    => false,

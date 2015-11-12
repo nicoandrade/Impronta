@@ -13,11 +13,7 @@ jQuery(document).ready(function($) {
 				}
 			}
 
-			Pace.options = {
-			  restartOnPushState: false,
-			  restartOnRequestAfter: false,
-			   ajax: false
-			}
+			
 			//Anomation at load -----------------
 			Pace.on('done', function(event) {
 				
@@ -27,7 +23,6 @@ jQuery(document).ready(function($) {
 				equalHeight();
 				
 			});//Pace
-
 
 
 
