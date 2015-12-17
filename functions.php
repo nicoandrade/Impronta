@@ -145,8 +145,7 @@ require get_template_directory() . '/inc/scripts/styles.php';
  * Enqueue styles to the Admin Panel.
  */
 function impronta_wp_admin_style() {
-        wp_register_style( 'impronta_custom_wp_admin_css', get_template_directory_uri() . '/css/admin-styles.css', false, '1.0.0' );
-        wp_enqueue_style( 'impronta_custom_wp_admin_css' );
+        wp_enqueue_style( 'impronta_custom_wp_admin_css', get_template_directory_uri() . '/css/admin-styles.css', false, '1.0.0' );
 }
 add_action( 'admin_enqueue_scripts', 'impronta_wp_admin_style' );
 

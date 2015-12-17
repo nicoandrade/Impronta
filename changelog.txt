@@ -1,3 +1,9 @@
+* 1.0.3 - 17/12/2015
+====================
+- Changed: enqueue of admin styles
+- Included: unminified version of CSS Animate
+
+
 * 1.0.2 - 12/11/2015
 ====================
 - Added: Infinite Scroll support
