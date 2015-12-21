@@ -235,17 +235,6 @@
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 0
 		},
-	"\/js\/jquery.hoverIntent.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/jquery.hoverIntent.js",
-		"outputAbbreviatedPath": "\/js\/min\/jquery.hoverIntent-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
-		},
 	"\/js\/modernizr.custom.67069.js": {
 		"fileType": 64,
 		"ignore": 1,

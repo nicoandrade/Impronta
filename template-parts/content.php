@@ -41,8 +41,6 @@
 			</div><!-- .entry-content -->
 
 			<div class="clearfix"></div>
-			
-			<?php impronta_social_share(); ?>
 
 
 		</div><!-- /post-content -->

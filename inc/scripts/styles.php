@@ -11,9 +11,9 @@ function impronta_custom_css() {
 	$headings_color = get_theme_mod( 'impronta_headings_color', '#383838' );
 
 	$colors = array(
-		'text_color'     => $text_color,
-		'link_color'     => $link_color,
-		'headings_color'     => $headings_color,
+		'text_color'     => esc_attr( $text_color ),
+		'link_color'     => esc_attr( $link_color ),
+		'headings_color'     => esc_attr( $headings_color ),
 	);
 
 	$custom_css = impronta_get_custom_css( $colors );
@@ -36,7 +36,7 @@ function impronta_get_custom_css( $colors ) {
 	$colors = wp_parse_args( $colors, array(
 		'text_color'            => '',
 		'link_color'            => '',
-		'link_color'            => '',
+		'headings_color'        => '',
 	) );
 
 	$css = <<<CSS
