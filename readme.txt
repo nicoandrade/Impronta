@@ -67,12 +67,9 @@ HTML5 Shiv by @afarkas @jdalton @jon_neal @rem
 License: MIT/GPL2 Licensed
 Source: https://github.com/afarkas/html5shiv
 
-hoverIntent
-License: MIT license
-Source: http://cherne.net/brian/resources/jquery.hoverIntent.html
-
 [Lato Font](https://www.google.com/fonts/specimen/Lato) by Łukasz Dziedzic - Licensed under the [SIL Open Font License, 1.1](http://scripts.sil.org/OFL).
 
 Images from Unsplash
+https://unsplash.com/photos/OlZ1nWLEEgM
 License: https://unsplash.com/license
 Source: https://unsplash.com

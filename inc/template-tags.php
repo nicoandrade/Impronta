@@ -88,29 +88,6 @@ endif;
 
 
 
-if ( ! function_exists( 'impronta_social_share' ) ) :
-/**
- * Prints HTML with date information for the current post.
- */
-function impronta_social_share() {
-
-	if ( 'post' === get_post_type() ) : ?>
-
-		<div class="social-share">
-            <a href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink(); ?>" class="facebook" data-toggle="tooltip" data-placement="left" title="<?php esc_attr_e( 'Share', 'impronta' ); ?>"><i class="fa fa-facebook"></i></a>
-            <a href="https://twitter.com/home?status=<?php the_permalink(); ?>" class="twitter" data-toggle="tooltip" data-placement="left" title="<?php esc_attr_e( 'Share', 'impronta' ); ?>"><i class="fa fa-twitter"></i></a>
-            <a href="https://plus.google.com/share?url=<?php the_permalink(); ?>" class="google" data-toggle="tooltip" data-placement="left" title="<?php esc_attr_e( 'Share', 'impronta' ); ?>"><i class="fa fa-google-plus"></i></a>
-        </div>
-
-    <?php endif;
-
-}
-endif;
-
-
-
-
-
 
 /**
  * Returns true if a blog has more than 1 category.
