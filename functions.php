@@ -41,12 +41,9 @@ function impronta_setup() {
 	 * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 	 */
 	add_theme_support( 'post-thumbnails' );
-	
-	if ( function_exists( 'add_image_size' ) ) {
-		//Blog
-		add_image_size( 'post', 1043, 586, true );
 
-	}
+		//Blog
+		add_image_size( 'impronta_post', 1043, 586, true );
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(

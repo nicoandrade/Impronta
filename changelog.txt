@@ -1,3 +1,20 @@
+* 1.0.8 - 12/01/2016
+====================
+- Changed: CSS breakpoints for better support to smaller screens
+
+
+* 1.0.7 - 09/01/2016
+====================
+- Changed: sanitize function
+
+
+* 1.0.6 - 08/01/2016
+====================
+- Added: prefix to thumbnails size
+- Removed: sanitize function
+- Removed: unused variable from impronta_new_content_more()
+
+
 * 1.0.5 - 22/12/2015
 ====================
 - Removed: sharing template tag function

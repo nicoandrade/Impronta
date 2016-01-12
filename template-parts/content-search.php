@@ -13,7 +13,7 @@
 		<?php if ( has_post_thumbnail() ) : ?>
 		<div class="post-image">
             <a href="<?php echo esc_url( get_permalink() ); ?>" class="ql_thumbnail_hover" rel="bookmark">
-                <?php the_post_thumbnail( 'post' ); ?>
+                <?php the_post_thumbnail( 'impronta_post' ); ?>
                 <?php impronta_date(); ?>
             </a>
         </div><!-- /post-image -->

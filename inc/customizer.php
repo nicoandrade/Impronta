@@ -165,14 +165,7 @@ function impronta_sanitize_integer( $value ) {
  * Sanitize return pro version text
  */
 function impronta_pro_version( $input ) {
-    return $input;
-}
-
-/**
- * Sanitize Any
- */
-function impronta_sanitize_any( $input ) {
-    return $input;
+    return;
 }
 
 /**

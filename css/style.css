@@ -57,6 +57,7 @@ html {
   display: block;
   text-transform: uppercase;
   font-weight: bold;
+  word-wrap: break-word;
 }
 .logo_container .ql_logo:hover,
 .logo_container .ql_logo:active,
@@ -2547,7 +2548,7 @@ textarea {
 	// Small Breakpoint
 	// ------------------
 	*/
-@media (min-width: 768px) and (max-width: 1345px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .container {
     width: 96%;
   }
@@ -2597,7 +2598,10 @@ textarea {
 	// Medium Breakpoint
 	// ------------------
 	*/
-@media (min-width: 1346px) and (max-width: 1509px) {
+@media (min-width: 1024px) and (max-width: 1509px) {
+  .container {
+    width: 88%;
+  }
   /*
 	Header
 	--------------------------------

@@ -5,7 +5,7 @@
 	//=================================================================
 
 	//Modernizr Plugin ================================================
-	wp_enqueue_script( 'modernizr', get_template_directory_uri() . '/js/modernizr.custom.67069.js', '2.8.3', true );
+	wp_enqueue_script( 'impronta_modernizr', get_template_directory_uri() . '/js/modernizr.custom.67069.js', '2.8.3', true );
 	//=================================================================
 	
 	//Pace  ===========================================================
@@ -25,7 +25,7 @@
 
 	
 	//Customs Scripts =================================================
-	wp_enqueue_script( 'theme-custom', get_template_directory_uri() . '/js/script.js', array('jquery', 'bootstrap'), '1.0', true );
+	wp_enqueue_script( 'impronta_theme-custom', get_template_directory_uri() . '/js/script.js', array('jquery', 'bootstrap'), '1.0', true );
 	//=================================================================
 
 ?>

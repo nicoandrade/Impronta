@@ -83,7 +83,6 @@ if ( ! function_exists( 'impronta_get_portfolio_categories' ) ){
 
 if ( ! function_exists( 'impronta_new_content_more' ) ){
     function impronta_new_content_more($more) {
-           global $post;
            return ' <br><a href="' . esc_url( get_permalink() ) . '" class="more-link read-more"><span>' . esc_html__( 'Read more',  'impronta' ) . '</span></a>';
     }   
 }// end function_exists
