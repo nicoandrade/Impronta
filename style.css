@@ -4,7 +4,7 @@ Theme URI: https://www.quemalabs.com/theme/impronta/
 Author: Quema Labs
 Author URI: https://www.quemalabs.com
 Description: Impronta is a beautiful blogging theme. Focused on content, it is perfect for news sites, personal blogs, diary and much more. Has responsive design and will look amazing on mobile or desktop.
-Version: 1.0.8
+Version: 1.0.9
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
 Text Domain: impronta
@@ -2160,6 +2160,27 @@ Social Nav
 }
 .nav_social li a[href*="500px.com"]::before {
   content: "\f26e";
+}
+.nav_social li a[href*="twitch.tv"]::before {
+  content: "\f1e8";
+}
+.nav_social li a[href*="amazon.com"]::before {
+  content: "\f270";
+}
+.nav_social li a[href*="behance.com"]::before {
+  content: "\f1b4";
+}
+.nav_social li a[href*="dropbox.com"]::before {
+  content: "\f16b";
+}
+.nav_social li a[href*="tripadvisor.com"]::before {
+  content: "\f262";
+}
+.nav_social li a[href*="yelp.com"]::before {
+  content: "\f1e9";
+}
+.nav_social li a[href*="soundcloud.com"]::before {
+  content: "\f1be";
 }
 #sidebar hr {
   border-color: #555555;

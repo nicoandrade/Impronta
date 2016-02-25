@@ -1,3 +1,8 @@
+* 1.0.9 - 25/02/2016
+====================
+- Added: Twitch, Amazon, Behance, Dropbox, Tripadvisor, Yelp and Soundcloud social icons
+
+
 * 1.0.8 - 12/01/2016
 ====================
 - Changed: CSS breakpoints for better support to smaller screens
